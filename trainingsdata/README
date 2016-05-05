@@ -1,0 +1,64 @@
+All files a tab separated files. All indels are Sanger validated. If the class label is 1 the indel is confirmed,
+whereas if the class label is -1 the indel is rejected (negative example).
+
+For more detailed information of the features see attached Table and Tab-Nr..
+File formats:
+
+Training data:
+-------------
+
+Validated deletion candidates containing the single feature f1 (deletions_f1.tab):
+1. class label
+2. chromosome 
+3. deletion start 
+4. deletion end
+5. deletion length (Tab-Nr. 16)
+
+Validated insertion candidates containing the single feature f1 (insertions_f1.tab):
+1. class label
+2. chromosome
+3. insertion start
+4. insertion end
+5. insertion length (Tab-Nr. 16)>
+
+Validated insertion candidates containing 13 features f13 (insertions_f13.tab):
+1. class label
+2. chromosome
+3. insertion start
+4. insertion end
+5. UMR upstream (Tab-Nr. 5)
+6. UMR downstream (Tab-Nr. 9)
+7. error-free UMR upstream (Tab-Nr. 6)
+8. error-free UMR downstream (Tab-Nr. 10)
+9. N-UMR upstream (Tab-Nr. 7)
+10. N-UMR downstream (Tab-Nr. 11)
+11. error-free N-UMR upstream (Tab-Nr. 8)
+12. error-free N-UMR downstream (Tab-Nr. 12)
+13. SPV (Tab-Nr. 13)
+14. SPV (Tab-Nr. 14)
+15. SPV (Tab-Nr. 15)
+16. insertion support (Tab-Nr. 17)
+17. insertion length (Tab-Nr. 16)>
+
+Validated deletion candidates containing 17 features f17 (insertions_f17.tab):
+1. class label
+2. chromosome
+3. insertion start
+4. insertion end
+5. UMRs within deletion (Tab-Nr. 1)
+6. error-free UMRs within deletion (Tab-Nr. 2)
+7. N-UMRs within deletion (Tab-Nr. 3)
+8. error-free N-UMRs within deletion (Tab-Nr. 4)
+9. UMR upstream (Tab-Nr. 5)
+10. UMR downstream (Tab-Nr. 9)
+11. error-free UMR upstream (Tab-Nr. 6)
+12. error-free UMR downstream (Tab-Nr. 10)
+13. N-UMR upstream (Tab-Nr. 7)
+14. N-UMR downstream (Tab-Nr. 11)
+15. error-free N-UMR upstream (Tab-Nr. 8)
+16. error-free N-UMR downstream (Tab-Nr. 12)
+17. SPV (Tab-Nr. 13)
+18. SPV (Tab-Nr. 14)
+19. SPV (Tab-Nr. 15)
+20. deletion support (Tab-Nr. 17)
+21. deletion length (Tab-Nr. 16)>
